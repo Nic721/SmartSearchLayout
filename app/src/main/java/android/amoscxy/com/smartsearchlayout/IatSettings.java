@@ -1,0 +1,47 @@
+package android.amoscxy.com.smartsearchlayout;
+
+import android.os.Bundle;
+import android.preference.EditTextPreference;
+import android.preference.Preference;
+import android.preference.Preference.OnPreferenceChangeListener;
+import android.preference.PreferenceActivity;
+
+
+/**
+ * 听写设置界面
+ */
+public class IatSettings extends PreferenceActivity implements OnPreferenceChangeListener {
+	
+	public static final String PREFER_NAME = "com.iflytek.setting";
+	private EditTextPreference mVadbosPreference;
+	private EditTextPreference mVadeosPreference;
+	
+	@SuppressWarnings("deprecation")
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		getPreferenceManager().setSharedPreferencesName(PREFER_NAME);
+		addPreferencesFromResource(R.xml.iat_setting);
+		
+		mVadbosPreference = (EditTextPreference)findPreference("iat_vadbos_preference");
+		mVadbosPreference.getEditText().addTextChangedListener(new SettingTextWatcher(IatSettings.this,mVadbosPreference,0,10000));
+		
+		mVadeosPreference = (EditTextPreference)findPreference("iat_vadeos_preference");
+		mVadeosPreference.getEditText().addTextChangedListener(new SettingTextWatcher(IatSettings.this,mVadeosPreference,0,10000));
+	}
+	@Override
+	public boolean onPreferenceChange(Preference preference, Object newValue) {
+		return true;
+	}
+	@Override
+	protected void onResume() {
+		super.onResume();
+		
+//		MobclickAgent.onResume(this);
+	}
+	@Override
+	protected void onPause() {
+		super.onPause();
+		
+//		MobclickAgent.onPause(this);
+	}
+}

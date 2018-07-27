@@ -1,0 +1,117 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+	<color name="transparent">#00000000</color>
+
+    <!-- rgb和16进制转换 http://www.ab126.com/web/2849.html -->
+	<color name="white">#FFFFFF</color>
+	<color name="view_pressed">#D3EBFF</color>
+     <color name="result_view">#b0000000</color>
+      <color name="viewfinder_mask">#60000000</color>
+      <color name="possible_result_points">#c0ffff00</color> 
+      <color name="WIN8_1">#5B37B5</color>
+      <color name="WIN8_2">#03B0F5</color>
+      <color name="WIN8_3">#92CA05</color>
+      <color name="WIN8_4">#9F00A3</color>
+      
+      <color name="black">#000000</color>
+	<color name="gray">#808080</color>
+	<color name="light_gray">#A8A8A8</color>	 
+	<color name="c818181">#818181</color>
+	<color name="c565656">#565656</color>
+	<color name="ce4e3e2">#e4e3e2</color>
+	<color name="cfff68f">#fff68f</color>
+	<color name="c8080ff">#8080ff</color>
+	<color name="c0099cc">#0099cc</color>
+	
+	<color name="c08ba9c">#08ba9c</color>
+	<color name="cdddddd">#dddddd</color>
+	
+	<color name="cff0000">#ff0000</color>
+	<color name="lighter_gray1">#eee</color>
+	<color name="lighter_gray">#ddd</color>
+    <!-- wechat color setting -->	
+	<color name="wechat_text_dark">#1c1c1c</color>
+	<color name="wechat_text_gray">#9b9b9b</color>
+	<color name="wechat_text_green">#46bf18</color>
+	<color name="wechat_text_white">#FFFFFF</color>
+	<color name="wechat_background_gray">#ebebeb</color>
+	<color name="wechat_background_green">#46bf18</color>
+	<color name="wechat_background_green_dark">#278608</color>
+	<color name="wechat_background_red">#ff3b41</color>
+	<color name="wechat_background_red_dark">#660000</color>
+	<color name="wechat_background_dark">#23282b</color>
+	<color name="navigation_bar">#1C944D</color>
+
+	<!-- bootstrap button color -->
+	<color name ="btn_default">#fff</color>
+	<color name ="btn_default_border">#ccc</color>
+	<color name ="btn_primary">#2e6da4</color>
+	<color name ="btn_primary_border">#337ab7</color>
+	<color name ="btn_success">#5cb85c</color>
+	<color name ="btn_success_border">#4cae4c</color>
+	<color name ="btn_info">#46b8da</color>
+	<color name ="btn_info_border">#5bc0de</color>
+	<color name ="btn_warning">#f0ad4e</color>
+	<color name ="btn_warning_border">#eea236</color>
+	<color name="btn_yello1">#FE9900</color>
+	<color name ="btn_danger">#d9534f</color>
+	<color name ="btn_danger_border">#d43f3a</color>
+	
+	<!-- ios style -->
+	<color name = "label_color">#FF007AFF</color>
+	
+	<!-- picker com.ziniu.mobile.module.com.ziniu.mobile.module.zxing.view -->
+	<color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <!--覆盖颜色-->
+    <color name="bgColor_overlay">#60000000</color>
+	<color name="bg_color">#EDEDED</color>
+	<color name="contents_text">#ff000000</color>
+	<color name="encode_view">#ffffffff</color>
+	<color name="help_button_view">#ffcccccc</color>
+	<color name="help_view">#ff404040</color>
+	<color name="result_image_border">#ffffffff</color>
+	<color name="result_minor_text">#ffc0c0c0</color>
+	<color name="result_points">#c000ff00</color>
+	<color name="result_text">#ffffffff</color>
+	<color name="sbc_header_text">#ff808080</color>
+	<color name="sbc_header_view">#ffffffff</color>
+	<color name="sbc_list_item">#fffff0e0</color>
+	<color name="sbc_layout_view">#ffffffff</color>
+	<color name="sbc_page_number_text">#ff000000</color>
+	<color name="sbc_snippet_text">#ff4b4b4b</color>
+	<color name="share_text">#ff000000</color>
+	<color name="share_view">#ffffffff</color>
+	<color name="status_view">#50000000</color>
+	<color name="status_text">#ffffffff</color>
+	<color name="viewfinder_frame">#ff000000</color>
+	<color name="viewfinder_laser">#ffff0000</color>
+	<color name="header">#58567D</color>
+	<color name="grgray">#686868</color>
+	<color name="ShawLiner">#88cdcdcd</color>
+
+	<!-- 半透明 -->
+	<color name="translucent_gray">#88323232</color>
+
+	<!-- text -->
+	<color name="text_default">#ffffff</color>
+	<color name ="green_1C944D">#1C944D</color>
+	<color name="green_074b23">#074b23</color>
+	<!-- Bar -->
+	<color name="colorPrimary">#1C944D</color>
+	<color name="colorPrimaryDark">#1C944D</color>
+	<color name="colorAccent">#1C944D</color>
+	<color name="status_bar_color">@color/colorPrimaryDark</color>
+
+	<color name="c8db8c">#c8db8c</color>
+	<color name="afcd50">#afcd50</color>
+
+	<color name="b5e9bc">#b5e9bc</color>
+	<color name="b87c38f">#87c38f</color>
+</resources>

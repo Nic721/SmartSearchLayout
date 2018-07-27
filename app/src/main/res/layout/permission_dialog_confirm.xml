@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="270dip"
+	android:layout_height="wrap_content"
+	android:background="@color/white"
+	android:orientation="vertical" >
+
+	<TextView
+		style="@style/text_s40_000000"
+		android:layout_marginTop="@dimen/dp_16"
+		android:layout_marginLeft="@dimen/dp_16"
+		android:layout_marginBottom="@dimen/dp_8"
+		android:text="提示"/>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/dp_8"
+		android:layout_marginLeft="@dimen/dp_16"
+		android:layout_marginRight="@dimen/dp_16"
+		android:layout_marginBottom="@dimen/dp_8">
+		<TextView
+			android:id="@+id/message"
+			style="@style/text_s32_000000"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="left"
+			android:text="无法获取摄像头数据，请检查是否已经打开摄像头权限"/>
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:id="@+id/ok"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/dp_8"
+		android:layout_marginLeft="@dimen/dp_16"
+		android:layout_marginRight="@dimen/dp_16"
+		android:layout_marginBottom="@dimen/dp_16"
+		android:background="@drawable/white_selector"
+		android:layout_gravity="right">
+		<TextView
+			style="@style/text_s40_green"
+			android:layout_gravity="center"
+			android:text="确定"/>
+	</RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:clickable="false"
+        android:layout_width="240dp"
+        android:layout_height="100dp">
+        <TextView
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_4"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_32"
+            style="@style/text_s30_000000"
+            android:text="确认删除该历史记录？"/>
+        <LinearLayout
+            android:clickable="false"
+            android:layout_margin="@dimen/dp_4"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_32">
+            <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/dp_2"
+                style="@style/text_s32_ffffff"
+                android:background="@drawable/select_gray1"
+                android:clickable="true"
+                android:text="取消"/>
+            <Button
+                android:id="@+id/determine_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/dp_2"
+                style="@style/text_s32_ffffff"
+                android:background="@drawable/select_primary1"
+                android:clickable="true"
+                android:text="确定"/>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">SmartSearchLayout</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main">主页面</string>
+    <string name="pref_key_iat_show">iat_show</string>
+    <string name="text_begin">请开始说话…</string>
+    <string name="pref_title_iat_dwa">结果动态修正</string>
+    <string name="pref_title_iat_show">显示听写界面</string>
+
+    <!-- for pull to refresh -->
+    <string name="ptr_pull_to_refresh">下拉刷新</string>
+    <string name="ptr_release_to_refresh">释放刷新</string>
+    <string name="ptr_refreshing">努力加载中…</string>
+    <string name="ptr_last_updated">上次更新时间: %1$s</string>
+    <string name="title_activity_qr">二维码</string>
+    <string name="title_activity_shou">ShouActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_qi_ta">QiTaActivity</string>
+    <string name="title_activity_shou_di_zhi">ShouDiZhiActivity</string>
+    <string name="spin_prompt_exp_company">请选择承运公司12</string>
+    <string name="title_activity_sou">SouActivity</string>
+
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+
+    <string name="title_paired_devices">已配对设备</string>
+    <string name="title_other_devices">可用设备</string>
+    <string name="button_scan">搜索设备</string>
+    <string name="select_device">选择一个设备</string>
+    <string name="scanning">正在扫描设备</string>
+    <string name="none_paired">没有已配对设备</string>
+    <string name="none_found">没有可用设备</string>
+    <!-- 合成 -->
+    <string-array name="engine_entries">
+        <item>本地合成</item>
+        <item>在线合成</item>
+    </string-array>
+    <string-array name="engine_values">
+        <item>local</item>
+        <item>cloud</item>
+    </string-array>
+    <string-array name="voicer_cloud_entries">
+        <item>小燕</item>
+        <item>小宇</item>
+        <item>凯瑟琳</item>
+        <item>亨利</item>
+        <item>玛丽</item>
+        <item>小研</item>
+        <item>小琪</item>
+        <item>小峰</item>
+        <item>小梅</item>
+        <item>小莉</item>
+        <item>小蓉</item>
+        <item>小芸</item>
+        <item>小坤</item>
+        <item>小强 </item>
+        <item>小莹</item>
+        <item>小新</item>
+        <item>楠楠</item>
+        <item>老孙</item>
+    </string-array>
+    <string-array name="voicer_cloud_values">
+        <item>xiaoyan</item>
+        <item>xiaoyu</item>
+        <item>catherine</item>
+        <item>henry</item>
+        <item>vimary</item>
+        <item>vixy</item>
+        <item>xiaoqi</item>
+        <item>vixf</item>
+        <item>xiaomei</item>
+        <item>xiaolin</item>
+        <item>xiaorong</item>
+        <item>xiaoqian</item>
+        <item>xiaokun</item>
+        <item>xiaoqiang</item>
+        <item>vixying</item>
+        <item>xiaoxin</item>
+        <item>nannan</item>
+        <item>vils</item>
+    </string-array>
+    <string-array name="stream_entries">
+        <item>通话</item>
+        <item>系统</item>
+        <item>铃声</item>
+        <item>音乐</item>
+        <item>闹铃</item>
+        <item>通知</item>
+    </string-array>
+    <string-array name="stream_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="tts_toast_format" formatted="false">缓冲进度为%d%%，播放进度为%d%%</string>
+    <!-- 语言 -->
+    <string-array name="language_entries">
+        <item>普通话</item>
+        <item>粤语</item>
+        <item>河南话</item>
+        <item>英语</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>mandarin</item>
+        <item>cantonese</item>
+        <item>henanese</item>
+        <item>en_us</item>
+    </string-array>
+    <!-- 语音评测 -->
+    <string name="text_en_word">"[word]\napple\nbanana\norange"</string>
+    <string name="text_en_sentence">"The quick brown fox jumps over the lazy dog."</string>
+    <string name="text_cn_syllable">"知，痴，是"</string>
+    <string name="text_cn_word">"磁铁，率领，脆弱，动手，古筝"</string>
+    <string name="text_cn_sentence">"一座座雪峰插入云霄，峰顶银光闪闪，大大小小的湖泊，像颗颗宝石镶嵌在彩带般的沟谷中。"</string>
+
+    <string-array name="ise_language_entries">
+        <item>英语</item>
+        <item>汉语</item>
+    </string-array>
+    <string-array name="ise_language_values">
+        <item>en_us</item>
+        <item>zh_cn</item>
+    </string-array>
+    <string-array name="category_entries">
+        <item>单字</item>
+        <item>词语</item>
+        <item>句子</item>
+    </string-array>
+    <string-array name="category_values">
+        <item>read_syllable</item>
+        <item>read_word</item>
+        <item>read_sentence</item>
+    </string-array>
+    <string-array name="result_level_entries">
+        <item>plain</item>
+        <item>complete</item>
+    </string-array>
+    <!-- 标点符号 -->
+    <string-array name="punc_entries">
+        <item>有标点</item>
+        <item>无标点</item>
+    </string-array>
+    <string-array name="punc_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="dwa_entries">
+        <item>开启</item>
+        <item>关闭</item>
+    </string-array>
+
+    <string name="title_activity_ji_jian">JiJianActivity</string>
+    <string name="title_activity_jijian_xia_dan">JijianXiaDanActivity</string>
+    <string name="title_activity_ji_jian_shou">JiJianShouActivity</string>
+    <string name="title_activity_ji_jian_xia_dan">JiJianXiaDanActivity</string>
+    <string name="_shoujianren">收件人信息：</string>
+    <string name="title_activity_gathering">GatheringActivity</string>
+    <string name="title_activity_wifi">WifiActivity</string>
+    <string name="title_activity_pinter">PinterActivity</string>
+    <string name="title_activity_printer_wifi">PrinterWifiActivity</string>
+    <string name="title_activity_printer_view">PrinterViewActivity</string>
+
+    <!-- picker com.ziniu.mobile.module.com.ziniu.mobile.module.zxing.view -->
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="pickerview_year">年</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_seconds">秒</string>
+
+    <string name="activity_main_printer">打印机:</string>
+    <string name="activity_main_bt">蓝牙设备</string>
+    <string name="activity_main_close">断开</string>
+    <string name="activity_main_print_test_page">打印测试页</string>
+    <string name="activity_devicelist_title_paired_devices">已配对设备</string>
+    <string name="fragement_order_refresh_time">上次刷新时间：</string>
+    <string name="activity_devicelist_title_other_devices">其它设备</string>
+    <string name="activity_devicelist_button_scan">扫描蓝牙</string>
+    <string name="activity_devicelist_get_device_err">获取设备失败:</string>
+    <string name="activity_devicelist_none_paired">未配对设备</string>
+    <string name="activity_devicelist_scanning">扫描中......</string>
+    <string name="activity_devicelist_select_device">设备列表</string>
+    <string name="activity_main_scan_error">连接失败！</string>
+    <string name="activity_main_connected">连接成功！</string>
+    <string name="activity_main_bluetooth_close">蓝牙模式已关闭！</string>
+    <string name="activity_main_bluetooth_device">蓝牙设备未配对！</string>
+    <string name="activity_main_tips">请连接蓝牙打印机！</string>
+    <string name="topic_camera_flashlight_auto">自动</string>
+    <string name="topic_camera_flashlight_off">关闭</string>
+    <string name="topic_camera_flashlight_on">开启</string>
+    <string name="auto_scan_notification">将扫描内容放入框内，即可自动扫描</string>
+    <string name="app_id">5b591d94</string>
+</resources>
