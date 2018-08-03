@@ -8,7 +8,7 @@ SmartSearchLayout是一个很好用的搜索框架，包含了以下功能点：
 
 先看效果图：
 
-![这里写图片描述](https://github.com/amoscxy/SmartSearchLayout/blob/master/pic/1.png)
+![这里写图片描述](https://img-blog.csdn.net/20180727082305892?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Ftb3NjeHk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
 这个搜索框架包含了以下功能点：
 语音输入、一键清除输入结果、搜索、历史搜索、短按搜索记录提交搜索、长按搜索记录删除搜索、历史搜索流式布局、一键清除历史搜索、多处历史搜索记录互不影响等
@@ -79,6 +79,10 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 }
 ```
 ## 1.3 结果展示
-![这里写图片描述](https://github.com/amoscxy/SmartSearchLayout/blob/master/pic/1.gif)
+![这里写图片描述](https://img-blog.csdn.net/20180727092414930?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Ftb3NjeHk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+
+![这里写图片描述](https://img-blog.csdn.net/20180803111452880?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Ftb3NjeHk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+
+![这里写图片描述](https://img-blog.csdn.net/201808031115008?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Ftb3NjeHk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
 [点击查看对应博客](https://blog.csdn.net/amoscxy/article/details/81218050)
