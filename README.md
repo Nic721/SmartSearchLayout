@@ -80,8 +80,6 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 ```
 ## 1.3 结果展示
 
-![这里写图片描述](http://otdfinygx.bkt.clouddn.com/SmartSearchLayout_1.gif)
-
 ![这里写图片描述](http://otdfinygx.bkt.clouddn.com/SmartSearchLayout_2.gif)
 
 ![这里写图片描述](http://otdfinygx.bkt.clouddn.com/SmartSearchLayout_3.gif)
